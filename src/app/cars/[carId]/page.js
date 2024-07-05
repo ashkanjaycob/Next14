@@ -3,6 +3,7 @@
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import carsData from "../../../../components/Data.js/carsData";
+import CarDetailer from "../../../../components/module/CarDetailer";
 
 
 function CarDetails() {
@@ -19,7 +20,7 @@ function CarDetails() {
     }
   }, [carId]);
 
-  return <div>CarDetails {id}</div>;
+  return <CarDetailer {...carDetails}/>;
 }
 
 export default CarDetails;

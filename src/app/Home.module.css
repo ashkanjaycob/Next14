@@ -1,0 +1,11 @@
+.baner {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    font-size: 3rem;
+    color: #55AD9B;
+}
